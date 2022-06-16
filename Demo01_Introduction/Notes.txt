@@ -1,0 +1,12 @@
+Who to Create-React And Run It?
+ 1) npx create-react-app my-app
+ 2) Folder name my-app is created
+ 3) Navigate in terminal into my-app folder -> cd my-app     
+ 4) npm start
+ 5) Stop React using CNRL+C
+ -------------------------------------
+ What Folders Created in React:
+ public: index.html/CSS/IMAGES/PDF/
+ src: JS Code /React Components
+ ------------------------------------  
+

@@ -4,13 +4,11 @@ REACT:
  - HTML DOM / VIRTUAL DOM
  - LIBRARY ON TOP JS
  ----------------------------------
- REACT Minus :
+REACT Minus :
    - First Request is Heavy 
-   - NO Standart JS 
+   - NO Standart HTML  
 REACT Plus:
    - RENDERING is Fast (Dynamic HTML)
    - Industury 
    - DEV FAST  
 -----------------------------------
- - Create-React :
- npx create-react-app my-app
