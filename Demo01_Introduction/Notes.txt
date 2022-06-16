@@ -9,4 +9,8 @@ Who to Create-React And Run It?
  public: index.html/CSS/IMAGES/PDF/
  src: JS Code /React Components
  ------------------------------------  
-
+What is Component:
+ - function /Class
+ - return HTML UI
+ - Must start capital Letter
+-------------------------------------
