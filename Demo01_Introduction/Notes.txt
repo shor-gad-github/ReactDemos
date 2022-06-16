@@ -13,4 +13,19 @@ What is Component:
  - function /Class
  - return HTML UI
  - Must start capital Letter
+ - Must return One Element Only
+ - <React.Fragment> enable multi Elements
+ - return(
+       //HTML 
+    );
+ - Compont can be inside Other Component (Hirarchy)
+ 
 -------------------------------------
+Targil 01:
+ - Create Class Component Name It Countries
+ - Return List Of Countries
+ - USE UL LI;
+------------------------------------------
+
+ 
+
