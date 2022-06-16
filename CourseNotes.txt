@@ -9,6 +9,8 @@ REACT Minus :
    - NO Standart HTML  
 REACT Plus:
    - RENDERING is Fast (Dynamic HTML)
-   - Industury 
-   - DEV FAST  
+   - popular in industery and  fUll uix app 
+   - DEV is FAST
+     - Seperate to modoules 
+     - Each modoules can be developed seperatly   
 -----------------------------------
