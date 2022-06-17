@@ -44,7 +44,7 @@ HomeWork 02
 - Create method that return Object Array of Countries 
 - each country has 3 attributes
   CountryCode,CountryName,Capital
-- Create Class Component that Display the countries Objects as a bullet list as followed:
+- Create Class Component that use the method and display the countries Objects as a bullet list as followed:
   [234234] - Israel - Jerusalem
   [234345] - France - Paris
   ...
