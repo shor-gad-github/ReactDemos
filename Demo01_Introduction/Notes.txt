@@ -33,9 +33,12 @@ Targil 01:
  - USE UL LI;
 ------------------------------------------
 HomeWork 01
-- FROM START REACT PROJECT
-- GITHUB
-- FUNCTION CLASS COMPONENTS WITH NOTES
+- Write all code we did in class from zero 
+   - start new react project 
+   - With all steps and code examples we did in class 
+   - dont Copy-paste - do code
+   - connect project to GITHUB
+   - Write Notes in sourcecode
 --------------------------------------
 HomeWork 02
 - Create method that return Object Array of Countries 
