@@ -4,21 +4,24 @@ import ComponentAsClass from './ComponentAsClass.js';
 import OtherComponent from './MyOtherComponent.js';
 import './index.css';
 
-
+//--Demo To Generate Component out of standart JS Array Object  
 function Countries()
 {
+  //--Array Object
   const countries  = ["Israel","USA","Brazil","France"];
   return(
-    <ul>
-    {
+    <ul> 
+    { //--Use { } to move from React JSX-HTML to JS code area 
       countries.map((country) =>
-        <li>{country}</li>
+        <li >{country}</li> 
       )
-    }
+    } 
   </ul>);
+
 }
 
-function MyComponent()
+//--Component that is Composed of other Components
+function MyCompositeComponent()
 {
     return(
   <React.Fragment>
@@ -35,6 +38,8 @@ function MyComponent()
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <Countries />
+  //  <ComponentAsClass />
+  //  <MyCompositeComponent />
 );
 
 

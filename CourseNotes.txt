@@ -1,6 +1,6 @@
 REACT:
  - SPA APP
- - COMPONENTS
+ - Multi COMPONENTS 
  - Hirarchy Of Rusable Components
  - HTML DOM / VIRTUAL DOM
  - LIBRARY ON TOP JS
@@ -15,9 +15,3 @@ REACT Plus:
      - Seperate to modoules 
      - Each modoules can be developed seperatly   
 -----------------------------------
-HomeWork
-- FROM START REACT PROJECT
-- GITHUB
-- FUNCTION CLASS COMPONENTS WITH NOTES
---------------------------------------
-

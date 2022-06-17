@@ -12,20 +12,40 @@ Who to Create-React And Run It?
 What is Component:
  - function /Class
  - return HTML UI
+ - JSX syntax that combine Standart HTML and JS together
+ - Combine state / logic / view
+ -------------------------------------
+ Component Basic Important Rules:
  - Must start capital Letter
  - Must return One Element Only
- - <React.Fragment> enable multi Elements
- - return(
+ - <React.Fragment> enable multi Elements without wrap element with div for example
+ - Use (); for multiline 
+  return(
        //HTML 
     );
  - Compont can be inside Other Component (Hirarchy)
- 
--------------------------------------
+ - Best practice to put each component in seperate file as .js or.jsx extentions
+ - Use {} to move from rect HTML to JS Code  - JS And HTML combined
+---------------------------------------------
 Targil 01:
  - Create Class Component Name It Countries
  - Return List Of Countries
  - USE UL LI;
 ------------------------------------------
+HomeWork 01
+- FROM START REACT PROJECT
+- GITHUB
+- FUNCTION CLASS COMPONENTS WITH NOTES
+--------------------------------------
+HomeWork 02
+- Create method that return Object Array of Countries 
+- each country has 3 attributes
+  CountryCode,CountryName,Capital
+- Create Class Component that Display the countries Objects as a bullet list as followed:
+  [234234] - Israel - Jerusalem
+  [234345] - France - Paris
+  ...
+//---------------------------------------
 
  
 

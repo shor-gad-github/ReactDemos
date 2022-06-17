@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Class Component Eample
 export default class ComponentAsClass extends React.Component{
  
     //Fields
