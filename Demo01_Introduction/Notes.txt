@@ -4,12 +4,19 @@ Who to Create-React And Run It?
  3) Navigate in terminal into my-app folder -> cd my-app     
  4) npm start
  5) Stop React using CNRL+C
- -------------------------------------
- What Folders Created in React:
- public: index.html/CSS/IMAGES/PDF/
+
+///----------------------------
+If you've previously ever installed create-react-app globally using the command:
+npm install -g create-react-app
+Its recommend you uninstall the package using:
+npm uninstall -g create-react-app
+to ensure that npx always uses the latest version
+//------------------------------
+ What Folders Created in React?
+ public: index.html/other html /CSS/IMAGES/PDF/static resources
  src: JS Code /React Components
  ------------------------------------  
-What is Component:
+What is React Component?
  - function /Class
  - return HTML UI
  - JSX syntax that combine Standart HTML and JS together
