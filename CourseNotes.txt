@@ -15,3 +15,44 @@ REACT Plus:
      - Seperate to modoules 
      - Each modoules can be developed seperatly   
 -----------------------------------
+Course Topics:
+- Project Enviornment 
+- Create COMPONENTS 
+- Composite Components 
+- States
+- Events
+- Rerendering UI
+- Forms
+- Using Server Comunication
+- Navigations and Routing
+- Hooks
+- Context  and redux 
+------------------------------------
+
+
+Topics Covered:
+
+Class 01:
+---------
+ - Setting React Project Enviornment
+ - What is a Component 
+ - Create Component as method
+ - Create Component as class
+ - exporting importing components
+ - Component rules
+ - Components in a components
+ - Use same component tag many times   
+ - Combine JS and Html in a component using {}
+ - render component from array ob Objects data  
+ -------------------------------------
+Class 02:
+
+
+
+
+
+
+
+
+
+
