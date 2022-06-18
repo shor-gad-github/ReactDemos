@@ -28,10 +28,7 @@ Course Topics:
 - Hooks
 - Context  and redux 
 ------------------------------------
-
-
 Topics Covered:
-
 Class 01:
 ---------
  - Setting React Project Enviornment
