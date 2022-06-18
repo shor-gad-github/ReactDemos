@@ -40,7 +40,7 @@ Class 01:
  - Components in a components
  - Use same component tag many times   
  - Combine JS and Html in a component using {}
- - render component from array ob Objects data  
+ - render component from array of Objects data  
  -------------------------------------
 Class 02:
 
