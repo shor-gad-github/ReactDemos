@@ -45,7 +45,7 @@ nav ul li {
 nav ul {
     list-style: none;
 }
-#pageContent {
+.pageContent {
     max-width: 1000px;
     margin: auto;
     border: none;
@@ -109,6 +109,12 @@ body > section {
     padding: 30px 0px;
     border-bottom: 1px solid #999;
     color: #333;
+}
+.headerTest
+{
+  color:Red;
+  border: 1px solid black;
+
 }
 
 @media screen and (max-width: 1000px) {

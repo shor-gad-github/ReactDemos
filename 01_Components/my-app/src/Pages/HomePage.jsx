@@ -10,6 +10,7 @@ export default function HomePage() {
     return (
         <>
             <Header />
+            <Content1 />
             <Content2 />
 
             <Footer />

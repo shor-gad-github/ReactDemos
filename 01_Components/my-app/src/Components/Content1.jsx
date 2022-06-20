@@ -2,10 +2,11 @@ import React from "react";
 
 export default function Content1() {
     return (
-        <section id="pageContent">
-            <h1>content 1:</h1>
-            <br/>
+        <section className="pageContent">
+           
 		<main >
+        <h1>content 1:</h1>
+            <br/>
 			<article>
 				<h2>Content 1</h2>
 				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
