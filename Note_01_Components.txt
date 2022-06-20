@@ -35,6 +35,11 @@ What is React Component?
  - Use {} to move from rect HTML to JS Code  - JS And HTML combined
  - css class should be converted to classname  
  <h1 class="pageheader">  --->  <h1 className="pageheader"> 
+ - Style shold be converted to Object
+ Normal Style:
+   <h1 style="color:'red';padding:10px;background-color:'pink'">TEXT</h1>
+ React Style:
+ <h1 style={{color:'red', padding:10px , backgroundColor:'pink'}}>TEXT</h1>
 ---------------------------------------------
 Targil Kita 01:
  - Create Class Component Name It Countries
