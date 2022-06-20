@@ -74,11 +74,11 @@ function MyCompositeComponent()
 
 
 function Car(props) {
-  return 
+  return(
   <>
-   <h2>I am a { props.brand.name }!</h2>;
-   <h2>I am a { props.brand.model }!</h2>;
-  </>
+   <h2>I am a { props.carInfo.name }!</h2>;
+   <h2>I am a { props.carInfo.model }!</h2>;
+  </>);
 }
 
 function Garage() {
@@ -86,9 +86,9 @@ function Garage() {
   return (
     <>
       <h1>Who lives in my garage?</h1>
-      <Car brand={ carInfo } />
-      <Car brand={{name: "Volvo", model: "AX-2021"  }} />
-      <Car brand={{name: "Subaro", model: "vW-2019"  }} />
+      <Car carInfo={ carInfo } />
+      <Car carInfo={{name: "Volvo", model: "AX-2021"  }} />
+      <Car carInfo={{name: "Subaro", model: "vW-2019"  }} />
     </>
   );
 }
