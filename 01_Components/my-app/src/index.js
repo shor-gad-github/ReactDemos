@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import ComponentAsClass from './ComponentAsClass.js';
 import OtherComponent from './MyOtherComponent.js';
-import './index.css';
+import HomePage from './Pages/HomePage.jsx';
+import './styles.css';
 
 function GetCountries()
 {
@@ -67,7 +68,7 @@ function MyCompositeComponent()
 //Create he Root Div For REACT
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <CountriesList />
+   <HomePage />
   //  <ComponentAsClass />
   //  <MyCompositeComponent />
 );
