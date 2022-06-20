@@ -43,6 +43,15 @@ Class 01:
  - render component from array of Objects data  
  -------------------------------------
 Class 02:
+- Create WebSite Composite Components 
+- Components without using JSX
+- Syling 
+- Using Css 
+- Conditional Rendering
+- Props
+- Debugging React and React tool
+- Building List With Props
+----------------------------------------
 
 
 
