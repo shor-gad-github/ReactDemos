@@ -16,13 +16,13 @@ function  StyledComponent() {
 
     return ( 
        <>
-        <h1 className='headerTest'>HTML WITH STYLE 1</h1>
+        <h1 className='headerTest'>HTML WITH ClassName Styling</h1>
         <br></br>
-        <h1 style={{color:"blue",border:"3px solid blue"}}>HTML WITH STYLE 2</h1>
+        <h1 style={{color:"blue",border:"3px solid blue"}}>HTML WITH Inline Styling Object</h1>
         <br></br>
         <h1 style={myStyle}>HTML WITH STYLE 3</h1>
         <br></br>
-        <h1 style={{backgroundColor:"blue"}}>HTML WITH STYLE 3</h1>
+        <h1 style={{backgroundColor:"blue"}}>HTML Inline Object Use backgroundColor (Not standart Style) </h1>
         <br></br>
         <h1 style={userStyle}>HTML WITH STYLE 3</h1>
 

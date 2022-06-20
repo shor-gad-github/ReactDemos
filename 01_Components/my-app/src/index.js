@@ -5,6 +5,7 @@ import OtherComponent from './MyOtherComponent.js';
 import HomePage from './Pages/HomePage.jsx';
 import './styles.css';
 import StyledComponent  from './StyledComponent'
+import PropsDemo  from './PropsDemo'
 
 
 
@@ -71,10 +72,36 @@ function MyCompositeComponent()
 
 }
 
+
+function Car(props) {
+  return 
+  <>
+   <h2>I am a { props.brand.name }!</h2>;
+   <h2>I am a { props.brand.model }!</h2>;
+  </>
+}
+
+function Garage() {
+  const carInfo = { name: "Ford", model: "Mustang 2020"  };
+  return (
+    <>
+      <h1>Who lives in my garage?</h1>
+      <Car brand={ carInfo } />
+      <Car brand={{name: "Volvo", model: "AX-2021"  }} />
+      <Car brand={{name: "Subaro", model: "vW-2019"  }} />
+    </>
+  );
+}
+
+
+
 //Create he Root Div For REACT
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <StyledComponent />
+  <>
+   <Garage />
+
+  </>
   //  <ComponentAsClass />
   //  <MyCompositeComponent />
 );
