@@ -23,7 +23,7 @@ function CountriesList()
     <ul> 
     { //--Use { } to move from React JSX-HTML to JS code area 
       countries.map((country) =>
-        <li>{`[${country.countryCode}]  -${country.countryName}(${country.Capital})`}</li> 
+        <li>{`[${country.countryCode}] - ${country.countryName} - ${country.Capital}`}</li> 
       )
     } 
   </ul>);

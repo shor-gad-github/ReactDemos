@@ -34,11 +34,23 @@ What is React Component?
  - Best practice to put each component in seperate file as .js or.jsx extentions
  - Use {} to move from rect HTML to JS Code  - JS And HTML combined
 ---------------------------------------------
-Targil 01:
+Targil Kita 01:
  - Create Class Component Name It Countries
  - Return List Of Countries
  - USE UL LI;
 ------------------------------------------
+Targil Koita 02:
+- Pages (Folder)
+   - HomePage.jsx
+- Components (Folder)
+   - Header.jsx
+   - Content.jsx
+   - Footer.jsx
+
+<HomePage />
+------------------------------------------
+
+
 HomeWork 01
 - Write all code we did in class from zero 
    - start new react project 
