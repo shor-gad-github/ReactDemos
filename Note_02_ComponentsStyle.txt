@@ -10,13 +10,20 @@ Tirgul 1:
       background-color -----> backgroundColor
       <h1 style={{backgroundColor:"pink"}}> use backgroundColor</h1>
 ----------------------------------------------------------------------------
-Tirgul 3:
+Tirgul 2:
  Create Garage Component That return few Cars components with diffrent props Info:
  Garage (Component)
    - <Car carInfo={model="2020" provider="Subaro" Color="White" }  />  
    - <Car ......>
 --------------------------------------------------------------------
-HomeWork 1:
+HomeWork 01:
+- Write all code we did in class from zero 
+   - start new react project 
+   - With all steps and code examples we did in class 
+   - dont Copy-paste - do code
+   - Write notes in your code
+-------------------------------------------------------------
+HomeWork 02:
 1) Create a component name it StudentComp
    StudentComp will get 3 keyvalue props
    - studentName
@@ -42,7 +49,7 @@ and you should append  - (Exellent) dynamiclly to the studnt line
     it will return list of StudentComp tags with  all props keys/values
 
 -----------------------------------------------------------------------------
-HomeWork 2:
+HomeWork 3:
 1) Create a method that return JSON ARRAY OF YouubeVideo Object
     name this function GetYoutubeList()
 2) YouubeVideo json object will have the following attributes:
@@ -51,21 +58,30 @@ HomeWork 2:
  - width
  - hight
 3) Create 2 Components
-  - YoutubeVideoListComp
-  - YoutubeVideoComp
- -  YoutubeVideoListComp will get
-    a single props key/value that contains an array of YouubeVideo Objects
- - for each data object create(map) a YoutubeVideoComp that recieve a props
-   of YouubeVideo object as parameter
+  1. YoutubeVideoListComp
+  2. YoutubeVideoComp
+    - YoutubeVideoListComp will get a single props key/value that contains an array of YouubeVideo Objects
+    - for each data object create(map) a YoutubeVideoComp that recieve a props
+      of YouubeVideo object as parameter
+    - each YoutubeVideoComp will display
+       a title the video frame itself with the correct size  
+      
+    - Example embedded youtube:
+      in order to display this link 
+        https://www.youtube.com/watch?v=_shA5Xwe8_4
+      you should use iframe tag:
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      for example:
+https://www.youtube.com/watch?v=_shA5Xwe8_4
+
+you should use iframe tag:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 4) Call GetYoutubeList() and fill the props data of the YoutubeVideoListComp
     from ReactDOM.createRoot in index.js
 
 
-in order to display real youtube in html:
-for this url for example:
-https://www.youtube.com/watch?v=_shA5Xwe8_4
-use this tag:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 -----------------------------------------------------------------------------
 
@@ -73,13 +89,6 @@ use this tag:
 
 
 
-
-
-
-
-
-
-Create a component of youtube videos name it YouTubeVideoList
 
 
 
