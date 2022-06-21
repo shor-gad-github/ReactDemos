@@ -64,11 +64,11 @@ HomeWork 3:
     - for each data object create(map) a YoutubeVideoComp that recieve a props
       of YouubeVideo object as parameter
     - each YoutubeVideoComp will display
-       a title the video frame itself with the correct size   
+       a title of the video,a frame of the video itself with the correct size   
     - Example embedded youtube:
-      in order to display this link 
+      in order to display this youtube address 
         https://www.youtube.com/watch?v=_shA5Xwe8_4
-      you should use iframe tag:
+      you should use this iframe tag:
       <iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4) Call GetYoutubeList() and fill the props data of the YoutubeVideoListComp
