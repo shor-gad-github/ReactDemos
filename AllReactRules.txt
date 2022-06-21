@@ -1,0 +1,19 @@
+React Component Rules:
+ 1 Must start capital Letter
+ 2 Must return One Element Only
+ 3 <React.Fragment></React.Fragment> or <></> enable multi Elements without using HTML Container(div)
+ 4. Use (); for multiline HTML 
+ return(
+       //WRITE HTML  HERE//
+    );
+ 5. Compont can Return Other composed Components(Hirarchy)
+ 6. Best practice to put each component in seperate file as .js or.jsx extentions
+ 7. Use {} to move from rect HTML to JS Code  - JS And HTML combined
+ 8. css class should be converted to classname  
+    <h1 class="pageheader">  --->  <h1 className="pageheader"> 
+ 9. Style shold be converted to Object
+    Normal Style:
+     <h1 style="color:'red';padding:10px;background-color:'pink'">TEXT</h1>
+    In React:
+     <h1 style={{color:'red', padding:10px , backgroundColor:'pink'}}>TEXT</h1>
+

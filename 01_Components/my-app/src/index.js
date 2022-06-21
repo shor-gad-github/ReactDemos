@@ -76,8 +76,8 @@ function MyCompositeComponent()
 function Car(props) {
   return(
   <>
-   <h2>I am a { props.carInfo.name }!</h2>;
-   <h2>I am a { props.carInfo.model }!</h2>;
+   <h5>I am a {`${props.carInfo.name} - ${props.carInfo.model}`}!</h5>;
+
   </>);
 }
 
