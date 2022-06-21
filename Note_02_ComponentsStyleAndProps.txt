@@ -23,7 +23,7 @@ HomeWork 01:
    - dont Copy-paste - do code
    - Write notes in your code
 -------------------------------------------------------------
-HomeWork 02:
+HomeWork 02 :
 1) Create a component name it StudentComp
    StudentComp will get 3 keyvalue props
    - studentName
@@ -64,8 +64,7 @@ HomeWork 3:
     - for each data object create(map) a YoutubeVideoComp that recieve a props
       of YouubeVideo object as parameter
     - each YoutubeVideoComp will display
-       a title the video frame itself with the correct size  
-      
+       a title the video frame itself with the correct size   
     - Example embedded youtube:
       in order to display this link 
         https://www.youtube.com/watch?v=_shA5Xwe8_4
