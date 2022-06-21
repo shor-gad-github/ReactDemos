@@ -71,12 +71,6 @@ HomeWork 3:
       you should use iframe tag:
       <iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      for example:
-https://www.youtube.com/watch?v=_shA5Xwe8_4
-
-you should use iframe tag:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_shA5Xwe8_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 4) Call GetYoutubeList() and fill the props data of the YoutubeVideoListComp
     from ReactDOM.createRoot in index.js
 
