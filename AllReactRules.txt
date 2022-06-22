@@ -1,4 +1,5 @@
 React Component Rules:
+-------------------------------------------------------------------------------------------------------------
  1 Must start capital Letter
  2 Must return One Element Only
  3 <React.Fragment></React.Fragment> or <></> enable multi Elements without using HTML Container(div)
@@ -16,4 +17,6 @@ React Component Rules:
      <h1 style="color:'red';padding:10px;background-color:'pink'">TEXT</h1>
     In React:
      <h1 style={{color:'red', padding:10px , backgroundColor:'pink'}}>TEXT</h1>
+     
 
+-----------------------------------------------------------------------------------------------------------------
