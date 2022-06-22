@@ -1,4 +1,5 @@
-Tirgul 1:
+How to Style HTML in REACT:
+-----------------------------
 -Use ClassName to refernce css class:
        <h1 className='headerTest'>HTML WITH ClassName Styling</h1>
 -Use Inner CSS Style as Object:       
@@ -11,8 +12,10 @@ Tirgul 1:
       background-color -----> backgroundColor
       example:
       <h1 style={{backgroundColor:"pink"}}> use backgroundColor</h1>
-----------------------------------------------------------------------------
-What are Props:
+----------------------------------------------------------------------------------------------------------
+
+What are React Props:
+---------------------
 - Parameters send into a component
 - intantiate each component with same look and feel but other data 
 - parameters send  inside component tag atributes as key value
@@ -38,13 +41,16 @@ calss Component:
 let s1 = {id:12344455,name:"Stef Carry" Grade:85}; 
  <Student  Student={s1} />
 ----------------------------------------------------------------------------------
+Tirgul 1 Props -:
 
-Tirgul 2:
  Create Garage Component That return few Cars components with diffrent props Info:
  Garage (Component)
    - <Car carInfo={model="2020" provider="Subaro" Color="White" }  />  
    - <Car ......>
---------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+HomeWorks:
+
 HomeWork 01:
 - Write all code we did in class from zero 
    - start new react project 
@@ -52,6 +58,7 @@ HomeWork 01:
    - dont Copy-paste - do code
    - Write notes in your code
 -------------------------------------------------------------
+
 HomeWork 02 :
 1) Create a component name it StudentComp
    StudentComp will get 3 keyvalue props
@@ -77,7 +84,7 @@ and you should append  - (Exellent) dynamiclly to the studnt line
 2) Create a component name it StudentsListComp
     it will return list of StudentComp tags with  all props keys/values
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 HomeWork 3:
 1) Create a method that return JSON ARRAY OF YouubeVideo Object
     name this function GetYoutubeList()
@@ -103,9 +110,7 @@ HomeWork 3:
 4) Call GetYoutubeList() and fill the props data of the YoutubeVideoListComp
     from ReactDOM.createRoot in index.js
 
-
-
------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 
 
