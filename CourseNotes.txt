@@ -49,10 +49,7 @@ Class 02:
 - Using Css 
 - Conditional Rendering
 - Props
-- Debugging React and React tool
-- Building List With Props
 ----------------------------------------
-
 
 
 

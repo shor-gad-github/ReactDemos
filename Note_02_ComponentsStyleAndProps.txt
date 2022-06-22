@@ -2,14 +2,43 @@ Tirgul 1:
 -Use ClassName to refernce css class:
        <h1 className='headerTest'>HTML WITH ClassName Styling</h1>
 -Use Inner CSS Style as Object:       
+     inline Object:
       <h1 style={{color:"blue",border:"3px solid blue"}}>HTML WITH Inline Styling Object</h1>
-      
+      outlineObject:
       let myStyle =  {color:"blue",border:"3px solid blue"};
       <h1 style={myStyle}>HTML WITH STYLE 3</h1>
 - Change Complex Attributes name
       background-color -----> backgroundColor
+      example:
       <h1 style={{backgroundColor:"pink"}}> use backgroundColor</h1>
 ----------------------------------------------------------------------------
+What are Props:
+- Parameters send into a component
+- intantiate each component with same look and feel but other data 
+- parameters send  inside component tag atributes as key value
+  Example: <MyComponent myKey="MyValue" MyKey2="MyValue2" myKey3={10}  />
+- props recived in a component using a parameter injected by react:
+func Component:
+function MyComp(props)
+{
+   ....
+   const { myKey, myKey2,mykey3 } = props //flat props into parameters 
+   <h1> {props.myKey}</h1>
+}
+
+calss Component:
+ 
+ render () {
+  this.props.myKey 
+  const { myKey, myKey2 } = this.props //flat props into parameters 
+  ···
+}
+
+- you can send 1 complex json object instead of many small values as props
+let s1 = {id:12344455,name:"Stef Carry" Grade:85}; 
+ <Student  Student={s1} />
+----------------------------------------------------------------------------------
+
 Tirgul 2:
  Create Garage Component That return few Cars components with diffrent props Info:
  Garage (Component)
