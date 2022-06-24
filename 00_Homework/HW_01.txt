@@ -1,0 +1,45 @@
+
+------React - HomeWork 01-------
+
+[Question 01]
+
+- Create method that return Object Array of Countries 
+- each country has 3 attributes:
+  CountryCode,CountryName,Capital
+- Create function Component that use the method and display the countries Objects as a bullet list as followed:
+  [234234] - Israel - Jerusalem
+  [234345] - France - Paris
+-try using a class component
+
+-------------------------------------------------------------------------------------------------------------------
+[Solution 01]
+
+function GetCountries()
+{
+  let countriesObjArray = [{countryCode:234243,countryName:"France",Capital:"Paris"},
+                           {countryCode:567567,countryName:"Israel",Capital:"Jerusalem"},
+                           {countryCode:456768,countryName:"USA",Capital:"Washington"}];
+
+  return countriesObjArray;
+}
+
+
+function CountriesList()
+{
+  //--Array Object
+  const countries  = GetCountries();
+  return(
+    <ul> 
+    { //--Use { } to move from React JSX-HTML to JS code area 
+      countries.map((country) =>
+        <li>{`[${country.countryCode}] - ${country.countryName} - ${country.Capital}`}</li> 
+      )
+    } 
+  </ul>);
+
+}
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
