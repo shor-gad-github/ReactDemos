@@ -3,7 +3,7 @@ import CounterDemo from './Counter';
 
 function AppStateDemos(){
   return(
-   <CounterDemo / >
+   <CounterDemo starcount={100}  />
   );
 }
 
