@@ -1,12 +1,12 @@
 import React,{useState} from "react";
 
 
-const CounterDemo = ()=>
+const CounterDemo = (props)=>
 {
     //1. --counter is the state Object Data--
     //2. --Function Callback that responsible to chaange the state--
-    const [counter, setCounter] = useState(0); //return array
-    
+    const [counter, setCounter] = useState(props.starcount); //return array
+
    
 
 // Function is called everytime increment button is clicked
