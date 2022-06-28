@@ -29,7 +29,6 @@ const CounterDemo = (props)=>
       alignItems: 'center',
       justifyContent: 'center',
       fontSize: '300%',
-      position: 'absolute',
       width: '100%',
       height: '100%',
       top: '-15%',

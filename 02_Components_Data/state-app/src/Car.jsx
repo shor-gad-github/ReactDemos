@@ -1,7 +1,7 @@
 import React from "react";
 
 //---Class Components---
-class Car extends React.Component
+export default class Car extends React.Component
 {
     constructor(props)
     {
@@ -22,13 +22,14 @@ class Car extends React.Component
     {
         return(
         <div>
-          <h1>{this.state.color}</h1>  
-            <p>
+            <h2>{this.props.username}</h2>
+          <h2>{this.state.color}</h2>  
+            <p>s
                Brand: {this.state.brand}
                <br/>
                Year: {this.state.year}
             </p>
-            <button onClick={this.chageColor}></button>
+            <button onClick={()=>this.chageColor()}>change state</button>
         </div>);
     }
 
