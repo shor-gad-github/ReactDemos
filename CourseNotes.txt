@@ -1,33 +1,3 @@
-REACT:
- - SPA APP
- - Multi COMPONENTS 
- - Hirarchy Of Rusable Components
- - Using VIRTUAL HTML DOM that Update Real HTML DOM
- - LIBRARY ON TOP JS
- ----------------------------------
-REACT Minus :
-   - First Request is Heavy 
-   - NO Standart HTML  
-REACT Plus:
-   - RENDERING is Fast (Dynamic HTML)
-   - popular in industery and  fUll uix app 
-   - DEV is FAST
-     - Seperate to modoules 
-     - Each modoules can be developed seperatly   
------------------------------------
-Course Topics:
-- Project Enviornment 
-- Create COMPONENTS 
-- Composite Components 
-- States
-- Events
-- Rerendering UI
-- Forms
-- Using Server Comunication
-- Navigations and Routing
-- Hooks
-- Context  and redux 
-------------------------------------
 Topics Covered:
 Class 01:
 ---------
@@ -50,6 +20,16 @@ Class 02:
 - Conditional Rendering
 - Props
 ----------------------------------------
+Class 03:
+- How to Clone GitHub Project from GITHUB 
+- using useState in function component
+- using constructor and props in Class Compopnent
+- using state in class component
+- changing state from events
+- Install React dev tool extention on browser
+- debug react in the browser
+- workin with state as list 
+-----------------------------------------
 
 
 

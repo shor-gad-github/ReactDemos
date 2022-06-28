@@ -17,6 +17,17 @@ React Component Rules:
      <h1 style="color:'red';padding:10px;background-color:'pink'">TEXT</h1>
     In React:
      <h1 style={{color:'red', padding:10px , backgroundColor:'pink'}}>TEXT</h1>
-     
+  10.State its the state of the Object:
+     - Fields / Properties
+     - Sensetive to State Changes
+     - when State is Changed render is triggered
+     - GUI is rerender with latest state data
+  11. Props like Constractor Initialization (in C#)
+      state  all data reflected by UI
+
+ 
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------

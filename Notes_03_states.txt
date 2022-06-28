@@ -1,0 +1,98 @@
+What is State:
+ - data Fields / Properties inside react lifecycle
+ - react is Sensetive to State Changes
+ - when State is Changed ui is triggered and render
+ - GUI is refreshed with latest state data
+ - only delta is changed in UI 
+ - react knows what state changed and updates ui 
+    with only changes depends on this state 
+ - we use differently state in func component and class component
+
+[Example for Class Component:]
+
+--Initialize state in constractor:
+constructor(props) {
+  super(props)
+  this.state = { username: "" }
+}
+---------------------------------
+--changing state,use this.setState method :
+this.setState({ username: 'gshor' })
+----------------------------------
+--render state date:
+render () {
+  //username = this.state.username;
+  const { username } = this.state; //extract key value to  variable 
+  return(
+  <h1>{username}</h1>
+  );
+}
+----------------------------------
+Example for func component:
+ const [userinfo, setuserInfo] = useState({usernme:"gshor",pass:"234d34gx"}); //return array
+Change State:
+
+ const handleClick1 = () => {
+    // Counter state is incremented
+    setUserInfo({username:gshor_1,pass:""});
+  
+  }
+----------------------------------------------------------
+class question 
+crete class component name it - ListComp
+   - props : initial array of numbers [1,2,3,4]
+   - State : list of numbers
+   - BUTTON  "Add" : ADD random number to array 
+   - BUTTON "CLEAR" : Clear all items in List
+   - BUTTON "RemoveLast": remove last item in list
+   - RENDER : create list as UL-LI
+-------------------------------------------------------------  
+Solution:
+import React, { Component } from 'react';
+
+export default class DemoListState extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {list: [2,3,1]};
+  }
+
+  //Clear All
+  onClearArray = () => {
+    this.setState({ list: [] });
+  };
+
+  //Add Item
+    onAddItem = () => {
+      let newNum =  Math.floor(Math.random() * 10);
+      this.setState({ list: [...this.state.list,newNum] });
+  };
+
+  //Remove Last Item
+  onRemoveLast = () => {
+     this.setState({ list: [...this.state.list.slice(0,-1)] });
+  };
+
+  render() {
+    return (
+ 
+      <div>
+        <br></br>
+         <button type="button" onClick={this.onClearArray}>Clear Array</button>&nbsp;
+         <button type="button" onClick={this.onAddItem}>Add Item</button>&nbsp;
+         <button type="button" onClick={this.onRemoveLast}>RemovevLast</button>&nbsp;
+  
+         <br></br>
+        <hr></hr>
+        <ul>  
+          {this.state.list.map(item => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+
+      
+      </div>
+    );
+  }
+}
+----------------------------------------------------------------------------
