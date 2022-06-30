@@ -1,18 +1,20 @@
 import logo from './logo.svg';
 import CounterDemo from './Counter';//Function Component
 import Car from './Car';//Class Component
-import DemoListState from './DemoListState';//Class Component
+import ToggleButton from './ToggleButton';
 
-function AppStateDemos(){
-  return(
+
+function AppStateDemos() {
   
-  <>
-   {/* <CounterDemo starcount={100}  /> 
-   <Car  username="g.shor@outlook.com"></Car> */}
-   <DemoListState initialList={[1,2,3]} ></DemoListState>
 
-   </>
+  return (
+    <>
+      <ToggleButton togggleText="OFF"></ToggleButton>
+       <br></br>
+      <ToggleButton togggleText="OFF"></ToggleButton>
+    </>
+  
+  
   );
 }
-
 export default AppStateDemos;

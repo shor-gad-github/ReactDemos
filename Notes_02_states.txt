@@ -28,7 +28,7 @@ render () {
   );
 }
 ----------------------------------
-Example for func component:
+Example for func component(HOOK):
  const [userinfo, setuserInfo] = useState({usernme:"gshor",pass:"234d34gx"}); //return array
 Change State:
 
