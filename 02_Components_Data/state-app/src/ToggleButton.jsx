@@ -1,16 +1,17 @@
 import React from "react";
 
-// <ToggleButton togggleText:"ON"  />
+// <ToggleButton togggleText="ON"  />
+// <ToggleButtonS count:10  />
 export default class ToggleButton extends React.Component {
     constructor(props) {
         super(props);// ON/OFF
-        let btnObjText = this.props.togggleText;
+        let btnObjText = this.props.toggleText;
         this.state = { toggleText: btnObjText };
 
     }
 
     toggle = (e) => {
-        let newTextTogle = (this.state.toggleText = "OFF") ? "ON" : "OFF";
+        let newTextTogle = (this.state.toggleText == "OFF") ? "ON" : "OFF";
         this.setState({ toggleText: newTextTogle });
     }
 

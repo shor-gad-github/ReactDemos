@@ -2,19 +2,18 @@ import logo from './logo.svg';
 import CounterDemo from './Counter';//Function Component
 import Car from './Car';//Class Component
 import ToggleButton from './ToggleButton';
+import ToggleButtonsList from './ToggleButtonsList';
 
 
 function AppStateDemos() {
-  
+
 
   return (
     <>
-      <ToggleButton togggleText="OFF"></ToggleButton>
-       <br></br>
-      <ToggleButton togggleText="OFF"></ToggleButton>
+      <ToggleButtonsList count={10} />
     </>
-  
-  
+
+
   );
 }
 export default AppStateDemos;
