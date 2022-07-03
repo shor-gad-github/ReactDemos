@@ -1,0 +1,36 @@
+
+What are React Props:
+---------------------
+- Parameters send into a component
+- intantiate each component with same look and feel but other data 
+- parameters send  inside component tag atributes as key value
+  usage Example: 
+  <MyComponent myKey="MyValue" MyKey2="MyValue2" myKey3={10}  />
+ ---------------------------------------------------------------------------- 
+- props recived in a component using a parameter injected by react:
+func Component:
+function MyComp(props)
+{
+   ....
+   const { myKey, myKey2,mykey3 } = props //flat props into parameters 
+   <h1> {props.myKey}</h1>
+}
+--------------------------------------------------------------------------------
+calss Component:
+ 
+ render () {
+  this.props.myKey 
+  const { myKey, myKey2 } = this.props //flat props into parameters 
+  ···
+}
+---------------------------------------------------------------------------------
+- you can send 1 complex json object instead of many small values as props:
+let s1 = {id:12344455,name:"Stef Carry" Grade:85}; 
+ <Student  Student={s1} />
+----------------------------------------------------------------------------------
+Tirgul 1 Props -:
+ Create Garage Component That return few Cars components with diffrent props Info:
+ Garage (Component)
+   - <Car carInfo={model="2020" provider="Subaro" Color="White" }  />  
+   - <Car ......>
+------------------------------------------------------------------------------------

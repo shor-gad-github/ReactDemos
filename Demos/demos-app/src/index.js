@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import ComponentAppDemos from './01_Components/App'
+// import PropsAppDemos from './02_Props/App'
+import StateAppDemos from './03_State/App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <>
+        {/* 01 Demos------------------------------------*/}
+        {/*<ComponentAppDemos></ComponentAppDemos>*/}
+        {/* 02 Props------------------------------------*/}
+        {/* <PropsAppDemos /> */}
+        {/* 03 Props------------------------------------*/}
+        <StateAppDemos />
+    </>
+);
+
+

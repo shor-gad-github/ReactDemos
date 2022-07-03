@@ -1,0 +1,50 @@
+Topics Covered:
+Class 01:
+---------
+ - Setting React Project Enviornment
+ - What is a Component 
+ - Create Component as method
+ - Create Component as class
+ - exporting importing components
+ - Component rules
+ - Components in a components
+ - Use same component tag many times   
+ - Combine JS and Html in a component using {}
+ - render component from array of Objects data  
+ -------------------------------------
+Class 02:
+- Create WebSite Composite Components 
+- Components without using JSX
+- Syling 
+- Using Css 
+- Conditional Rendering
+- Props
+----------------------------------------
+Class 03:
+- How to Clone GitHub Project from GITHUB 
+- using useState in function component
+- using constructor and props in Class Compopnent
+- using state in class component
+- changing state from events
+- Install React dev tool extention on browser
+- debug react in the browser
+- workin with state as list 
+-----------------------------------------
+Class 04:
+Define and updade State in class
+Define and Updade state in function (useState HOOK)
+Using Events to change state
+state with array of objects 
+Referencing Movies API and make movies Serch app
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
