@@ -13,6 +13,7 @@ export default function StateAppDemos() {
             {/* <DemoListState /> */}
             {/* <ToggleButtonsList /> */}
             <MoviesDemo></MoviesDemo>
+
         </>
     );
 

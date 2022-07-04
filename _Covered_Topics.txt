@@ -1,3 +1,6 @@
+URL DEMOS:
+https://github.com/shor-gad-github/ReactDemos
+
 Topics Covered:
 Class 01:
 ---------
@@ -34,10 +37,18 @@ Class 04:
 Define and updade State in class
 Define and Updade state in function (useState HOOK)
 Using Events to change state
-state with array of objects 
+state with array of objects  {arrComponents}
+Conditional Rendering
+Spreads Props
 Referencing Movies API and make movies Serch app
 -------------------------------------------
-
+Class 05:
+Working With Forms
+Events And Bind events 
+https://medium.com/how-to-react/pass-data-or-event-from-a-child-component-to-parent-component-in-both-functional-and-class-ae2f8b7ccda2
+Passing Events to child as Callback
+SomeDemos
+--------------------------------------------
 
 
 
