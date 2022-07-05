@@ -36,6 +36,7 @@ export default class Contuct extends React.Component {
         let values = "name=" + this.state.name + "," + "email=" + this.state.email;
         console.log(values);
         alert(values);
+        this.setState({ name: "", email: "" });
         //AJAX REQUEST ASP.NET API POST CONTRLLER
 
         // this.state
@@ -52,11 +53,11 @@ export default class Contuct extends React.Component {
                     <form onSubmit={this.submit}>
                         <div className="form-group row">
                             <label for="name" className="col-sm-2 col-form-label">Name:</label>
-                            <input type="text" onChange={this.inputChanged} className="form-control" name="name" id="name" placeholder="name" />
+                            <input type="text" onChange={this.inputChanged} className="form-control" name="name" id="name" placeholder="name" value={this.state.name} />
                         </div>
                         <div className="form-group row">
                             <label for="inputEmail" className="form-label mt-4">Your Email:</label>
-                            <input type="email" onChange={this.inputChanged} className="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                            <input value={this.state.email} type="email" onChange={this.inputChanged} className="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
                         </div>
                         <hr></hr>
                         <input type="submit" value="send" />
