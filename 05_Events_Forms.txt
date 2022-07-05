@@ -35,7 +35,7 @@ const handleChange2 = () =>
 ---------------------------------------------------------------------------
 How Can a child Comp comunicate with its parent Comp?
 - Using Props
-- Method refenence in parent is passed to a child 
+- Method refenence in parent is passed to a child with props usage
   then a child can invoke that method when required 
 When is Needed:
 Example:
