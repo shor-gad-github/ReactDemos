@@ -16,7 +16,6 @@ export default function Parent() {
     return (
         <div className="App">
             <Child data="Child 1" onChildClick={clickAlert} />
-
         </div>
     );
 }
