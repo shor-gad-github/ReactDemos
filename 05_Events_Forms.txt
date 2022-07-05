@@ -1,5 +1,5 @@
-EVENTS IN CLASS:
-1 WAY: if standart function bind it to the object 
+EVENTS IN CLASS 3 Ways:
+1) if standart function bind it to the object 
 Example:
 class{
 Constructor()
