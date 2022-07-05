@@ -33,13 +33,24 @@ const handleChange2 = () =>
 }
 <input type="text" value={this.state.value} onChange={this.handleChange2}
 ---------------------------------------------------------------------------
+How Can a child Comp comunicate with its parent Comp?
+- Using Props
+- Method refenence in parent is passed to a child 
+  then a child can invoke that method when required 
+When is Needed:
+Example:
+- if parent holds a list of data objects as state
+- a child can request to delete itself (using delete button in child)
+- then parent callback method is triggerd with id as parameter
+- the parent delete the data object from the list and update the state 
+- then parent is automatically refreshed and display it list again with updated list
+----------------------------------------------------------------------------
 Forms:
 -Forms are a way to submit multiple inputs values to server
 when click submit it group all keys(names) and values input and post it to server
 
 -in client we can handle the submit before posting or cancel submit
 -----------------------------------------------------------------------------
-
 
 
 
