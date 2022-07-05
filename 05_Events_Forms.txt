@@ -1,44 +1,45 @@
 EVENTS IN CLASS:
-1 WAY:
-
+1 WAY: if standart function bind it to the object 
+Example:
 class{
 Constructor()
 {
   ..
-
   this.handleChange = this.handleChange.bind(this);
 
 }
-
 handleChange()
 {
   this.props....
 }
 
-
 render()
 {
-  return()(
- <input type="text" value={this.state.value} onChange={this.handleChange}
+    ...
+     <input type="text" value={this.state.value} onChange={this.handleChange}
+    ...
 });
 }
----------------------------------------------------------
-2)
+--------------------------------------------------------------------------------
+2) user ArrowFunction and run Method in the body of arrow Function:
+Example:
 <input type="text" value={this.state.value} onChange={()=>this.handleChange()}
 ---------------------------------------------------------------------------------
-3)
+3)Use parameter with arrowFunction 
+Example:
 const handleChange2 = () =>
 {
 
 }
 <input type="text" value={this.state.value} onChange={this.handleChange2}
------------------------------------------------------------
-Contact Us
- - TELEPHONE
- - name
- 
- ------------------------------------------------------------
- CLIENT JS/REACT  FORM ----POST REQUEST----> ASP.NET API  ---> DB/MAIL
+---------------------------------------------------------------------------
+Forms:
+-Forms are a way to submit multiple inputs values to server
+when click submit it group all keys(names) and values input and post it to server
+
+-in client we can handle the submit before posting or cancel submit
+-----------------------------------------------------------------------------
+
 
 
 
