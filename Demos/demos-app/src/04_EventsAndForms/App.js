@@ -13,7 +13,8 @@ export default function AppForms() {
 
             {/* ---03 Products Example using multiple components
              hirarchy with props callbacks--- */}
-            <FilteredProductList></FilteredProductList>
+            {/* <FilteredProductList></FilteredProductList> */}
+
         </>
     );
 }

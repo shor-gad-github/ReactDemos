@@ -1,0 +1,10 @@
+HW 4: Upgrade Products Demo we did in class:
+1) Add More filtering Elements in Blue Section:
+2)Add "Sort by" (ComboBox selection List)
+ - By Price
+ - By Name
+3) Add Category Combo Box
+- Combo will list all cateories of all products
+- when selected: display only products with specific category that selected  
+4) for not Instock products add delete button, it will remove the product from the list
+------------------------------------------------------------------------------------------------------------
