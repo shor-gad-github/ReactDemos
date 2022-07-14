@@ -1,0 +1,11 @@
+ROUTING:
+ - Navigation
+ - BROWSER URL <---> Component
+ - LINK href 
+ - Nested / Template
+ - ID 
+ -------------------------------------------------
+ npm install react-router-dom
+ import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+
+ 

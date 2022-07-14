@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 // import PropsAppDemos from './02_Props/App'
 // import StateAppDemos from './03_State/App';
 // import FormsAppDemos from './04_EventsAndForms/App';
-import AppRouting from './05_Routing/App';
+import App from './05_Routing/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +21,9 @@ root.render(
         {/* 04 Forms And Events-------------------------*/}
         {/* <FormsAppDemos /> */}
 
-        <AppRouting></AppRouting>
+        {/* 05 Routing-------------------------*/}
+        <App></App>
+
     </>);
 
-
+//ROUTING
