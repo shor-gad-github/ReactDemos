@@ -13,6 +13,7 @@ export default function Layout() {
                 <Link style={{ fontSize: "20px" }} to="/p2">Page 2</Link>
                 &nbsp; &nbsp;
                 <Link style={{ fontSize: "20px" }} to="/p3">Page 3</Link>
+
             </nav>
             <br />
             <Outlet />
