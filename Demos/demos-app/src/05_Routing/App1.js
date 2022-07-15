@@ -7,7 +7,7 @@ import Page3 from './Pages/Page3';
 import Layout from './Pages/Layout';
 import NotFound from './Pages/NotFound';
 import Invoice from './Pages/Invoice';
-export default function App() {
+export default function App1() {
     return (
         <>
             <BrowserRouter>
