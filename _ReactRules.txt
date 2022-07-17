@@ -25,7 +25,7 @@ React Component Rules:
   11. Props like Constractor Initialization (in C#)
       state  all data reflected by UI
 
- 
+ 12
 
 
 

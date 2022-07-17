@@ -10,7 +10,11 @@ ROUTING:
  outlet templating
  navigate HOOK
  Parameters in ROUTING
- ------------------------------------------------
+ -------------------------------------------------
+
+ 
+
+
 
 
 
