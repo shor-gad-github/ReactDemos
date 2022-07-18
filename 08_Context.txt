@@ -1,0 +1,4 @@
+Global State:
+ - State will be Available for all components
+ - If changed all inner components that are using the context will rerender
+ 

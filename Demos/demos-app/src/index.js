@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';
 // import FormsAppDemos from './04_EventsAndForms/App';
 // import App1 from './05_Routing/App1';
 // import App2 from './05_Routing/App2';
+import Component1 from './07_Context/Components';
 import ChildrenApps from './06_ChildrenProps/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,7 +27,10 @@ root.render(
         {/* 05 Routing-------------------------*/}
         {/* <App1></App1> */}
         {/* <App2></App2> */}
-        <ChildrenApps></ChildrenApps>
+        {/* <ChildrenApps></ChildrenApps> */}
+
+        <Component1></Component1>
+
     </>);
 
 //ROUTING
