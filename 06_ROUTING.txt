@@ -1,19 +1,117 @@
-ROUTING:
- - Navigation
- - BROWSER URL <---> Component
- - LINK href 
- - Nested / Template
- - ID 
+Routing Features:
+ - Define WebSite URLS
+ - Connect URL with actuall component  
+ - Browser URL Navigation
+ - Link Button Navigation
+ - Support History
+ - Nested URLS and nested components
+    Example: : Students/all
+ - Template layout component for website based on url
+    Example Layout:
+      - fixed HEADER with links
+      - CONTENT COMPONENT replaced by url
+      - fixed FOOTER / SIDE BAR 
  -------------------------------------------------
- npm install react-router-dom
- import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
- outlet templating
- navigate HOOK
- Parameters in ROUTING
+How to start:
+1)  npm install react-router-dom
+2)  import pacakge functionality
+    import { BrowserRouter, Link, Routes, Route } from "react-router-dom"; when used
+--------------------------------------------------
+How to use:
+1) in app.js crteate Routes with all website urls and related component:
+2) set the first component to be a template based component for all web site 
+3) all its inner components will be based on parent component
+4) all parents can have also inner teplate  
+4) the index component will not have path and will be the default inner component when url is the parent 
+5) use the outlet in the place you want inner component will be rendered
+6) use Parameters in ROUTING for master chaild layout
+7) parameters are define with :
  -------------------------------------------------
+Examples:
 
+function App() {
+  return (
+    <>  
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout></Layout>}>
+            <Route index element={<Home ></Home>} />
+            <Route path="blogs" element={<Blogs ></Blogs>} />
+            <Route path="contact" element={<Contact ></Contact>} />
+            <Route path="*" element={<NoPage ></NoPage>} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+----------
+-Layout is template based for all its inner defined routes :
+- it usually contains fixed components such: Header-Nav SideBar  Footer
+- it contains dynamic content component according url
+- the outlet will render as HOME or Blogs or Contact or Nopage components as dynamic content according URL  
+- the apprppriate component will be replace the outlet where it placed in template 
+-  when root url is presented(parent route) the index component (Home) will be rendered by default
+- support recursive templating 
  
+const Layout = () => {
+    return (
+        <>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/blogs">Blogs</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </nav>
 
+            <Outlet />
+
+            <Footer />
+        </>
+    )
+};
+
+export default Layout;
+//--------------------------------------------------------------
+//parameter based example using :invoiceId as url parameter 
+
+ <BrowserRouter>
+            <Routes>
+                {/* -- ROOT ROUTE with templated outlet in App2Layout for its children  */}
+                <Route path="/" element={<App2Layout ></App2Layout>}>
+                    <Route path="expenses" element={<Expenses />} />
+                    {/* --invoices is also Templated with outlet in Invoices for its inner Invoice */}
+                    <Route path="invoices" element={<Invoices />}>
+                        {/* DEFAULT ROUTE WHEN NO invoiceId presented   */}
+                        <Route
+                            index
+                            // main is standart HTML tag 
+                            element={
+                                < main style={{ padding: '1rem' }}>
+                                    <p>Select an invoice</p>
+                                </main>
+                            }
+                        />
+                        {/* Nested ROUTE  */}
+                        <Route path=":invoiceId" element={<Invoice />} />
+                    </Route>
+                    <Route
+                        path="*"
+                        element={
+                            <main style={{ padding: '1rem' }}>
+                                <p>There's nothing here!</p>
+                            </main>
+                        }
+                    />
+                </Route>
+            </Routes>
 
 
 
