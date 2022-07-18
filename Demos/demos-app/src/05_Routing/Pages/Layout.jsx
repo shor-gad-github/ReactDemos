@@ -1,8 +1,13 @@
 import React from 'react';
+import { useState } from 'react';
 import { BrowserRouter, Link, Routes, Route, Outlet } from "react-router-dom";
+import userinfoContext from '../Contexts/userInfoContext';
 
 //TEMPLATE OF THE APP
 export default function Layout() {
+
+    const [user, setUser] = useState({ userName: "gshor", id: 1 });
+
     return (
         <div className='container'>
             <h1>WEB SITE TITLE</h1>
@@ -16,8 +21,10 @@ export default function Layout() {
 
             </nav>
             <br />
-            <Outlet />
-
+            {/* 02 Expose Global State */}
+            <userinfoContext.Provider value={{ user, setUser }}>
+                <Outlet />
+            </userinfoContext.Provider>
         </div >
     );
 
