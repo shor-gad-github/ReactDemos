@@ -1,0 +1,37 @@
+class Example extends React.Component {
+render() {
+return <div>
+    <div>Children ({this.props.children.length}):</div>
+    {this.props.children}
+</div>;
+}
+}
+----------------------------------------------------
+class Widget extends React.Component {
+render() {
+return <div>
+    <div>First <code>Example</code>:</div>
+    <Example>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </Example>
+    <div>Second <code>Example</code> with different children:</div>
+    <Example>
+        <div>A</div>
+        <div>B</div>
+    </Example>
+</div>;
+}
+}
+OUTPUT:
+
+First Example:
+Children (3):
+1
+2
+3
+Second Example with different children:
+Children (2):
+A
+B
