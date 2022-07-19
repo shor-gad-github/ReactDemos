@@ -27,7 +27,8 @@ const userContext = React.createContext({ userContextData: null, setUserContextD
      mycontext.userEmail
      mycontext.skin
      myContext.isLoggedin
-     ...
+     myContext.setUserData(...)
+    
 ------------
 
 
