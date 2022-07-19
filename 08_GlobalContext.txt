@@ -1,0 +1,36 @@
+Global State:
+ - State will be Available for all components
+ - No Need to drill-down props to inner components 
+ - If gobal state changed all inner components that are using the context will rerender
+ What is good for:
+ - save user prefernces that affect all application components
+ - theame/skin chooser
+ - user logged-in/loggedout
+ - bussiness data that relevant and affect many components when changed
+-----------------------------------------------------------------------------------------------
+How To use:
+1) Create Context in seperate file use the createContext method
+Example:
+const userContext = React.createContext({ userContextData: null, setUserContextData: () => { } }); 
+------------
+2) Create  state at root depth
+------------
+3) wrap all components tree with the root state :
+ <AuthContext.Provider value={{ globalState: userData, SetglobalState: setUserData }}>
+  //PUT INNER COMPONENTS HERE            
+ </AuthContext.Provider>
+ -----------
+ 4) read global Data for any inner component:
+   - Read the Context reference created at step 1
+     const mycontext = useContext(myContext);
+   - Consume the exposed data
+     mycontext.userEmail
+     mycontext.skin
+     myContext.isLoggedin
+     ...
+------------
+
+
+
+
+ 
