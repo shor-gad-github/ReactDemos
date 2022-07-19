@@ -1,8 +1,7 @@
-
 import React from "react";
 import { useState, useContext } from "react";
 import ReactDOM from "react-dom/client";
-import { UserContext } from "./userContext";
+import { UserContext } from "./GlobalContexts";
 
 export default function Component1() {
   const [user, setUser] = useState("Gad Shor");
@@ -54,8 +53,8 @@ function Component5() {
 
   return (
     <>
-      <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
+      <h1>{`Component 5 - Hello ${user} again! im getting Global State from depth 5`}</h1>
+
     </>
   );
 }

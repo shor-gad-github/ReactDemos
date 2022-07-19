@@ -3,8 +3,8 @@ import React from 'react';
 // import Parent from './02_LiftingUp';
 // import FilteredProductList from './ProductsDemo/filteredProductList'
 // import ProductsDemo from './03_CallbackLifting_ProductsDemo';
-// import ToDoApp from './04_CrudTodoList';
-import ToDosApp from './05_CrudTodoFunc';
+import ToDoApp from './04_CrudTodoList';
+// import ToDosApp from './05_CrudTodoFunc';
 export default function AppForms() {
     return (
         <>
@@ -18,7 +18,7 @@ export default function AppForms() {
              hirarchy with props callbacks--- */}
             {/* <ProductsDemo></ProductsDemo> */}
 
-            {/* <ToDoApp></ToDoApp> */}
+            <ToDoApp></ToDoApp>
 
             {/* <ToDosApp></ToDosApp> */}
 

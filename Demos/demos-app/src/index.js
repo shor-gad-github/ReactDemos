@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom/client';
 // import PropsAppDemos from './02_Props/App'
 // import StateAppDemos from './03_State/App';
 // import FormsAppDemos from './04_EventsAndForms/App';
-import App1 from './05_Routing/App1';
+// import App1 from './05_Routing/App1';
 // import App2 from './05_Routing/App2';
-// import Component1 from './07_Context/Components';
-// import ChildrenApps from './06_ChildrenProps/App';
+// import ChildrenPropsApp from './06_ChildrenProps/App';
+import AppGlobalContext from './07_GlobalContext/App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,11 +26,14 @@ root.render(
         {/* <FormsAppDemos /> */}
 
         {/* 05 Routing-------------------------*/}
-        <App1></App1>
+        {/* <App1></App1> */}
         {/* <App2></App2> */}
-        {/* <ChildrenApps></ChildrenApps> */}
 
-        {/* <Component1></Component1> */}
+        {/* 06 Props.Children-------------------------*/}
+        {/* <ChildrenPropsApp></ChildrenPropsApp> */}
+
+        {/* 07 Global State-------------------------*/}
+        <AppGlobalContext></AppGlobalContext>
 
     </>);
 
