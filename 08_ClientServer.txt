@@ -1,30 +1,65 @@
 CLIENT / SERVER
-1)FullStack Flow:
-Client (Native Android/WINFORM/React/Angular) ----> NODEJS/ASP.NET API
-ASP.NET API
- - ANY CLIENT
- - USUALLY RETURN JSON DATA
- - REACT(JS) will call Server
- - SPA - Single Page App
- - BIg Companies
- - REST API:
-   GET/POST/PUT/DELETE/PETCH
- - FETCH / AXIOS / XHR
-//------------------
-2)Monolitic Flow:
+-----------------
+1) FullStack Flow:
+   client and server are disconected
+   Client (Native Android/WINFORM/React/Angular) ----> NODEJS/ASP.NET API
+ - Client can be in any Platform technology
+ - Usually server return JSON Data only
+ - Client can get/send Json data
+ - Client is responsible for creating its UI methodology based on the json data
+ - SPA: Client is Single Page App
+ - Client Server will comunicate using REST API:
+   (GET/POST/PUT/DELETE/PETCH)
+ - Browser client can use async java call: 
+    FETCH / AXIOS / XHR
+Flow Steps:
+1) Client Request json data from server 
+2) Server return Json Data
+3) Client Get the JSON data and render ui dynamically on client CPU (Browser)
+
+--------------------------
+
+2) Monolitic Flow:
+   server render html dynamically 
  - ASP.NET MVC / WEBFORMS / WEBPAGES
  - Server Send all HTML+JS+Css Dynamically and return it to client
  - PHP/MVC/NODEJS MVC
  - LESS JS
- - RETURN HTML With Data
- - Only Browser - Web Client
- - Dedicated Web Site
- CLIENT ------------------------> SERVER  (READ FROM DB,RENDER HTML ACCORDING REQUST,Send it to Client)
- Client Disply Data (NO JS) <---- HTML DATA    
- ---------------------- 
- - EXAMPLE AXIOS 
- - npm run buid : standart HTML from react App (HTML+JS+CSS) in ZIPPED mode
+ - RETURN HTML + Data ready use by browser
+ - good when no spa used
+Flow steps:
+1) client Request url from server 
+2) Server will get client parameters and render HTML on server CPU dynamically
+3) html with data send to client
+4) client display full html as is from the server  
+
+---------------------- 
+ AXIOS:
+ - Help to do rest comunication with server async
+ - support HTTP Methods: GET/POST/DELETE/PUT/PETCH 
+ - easy to use
+ - very popular
+ -----------
+ Install npm package:
+ npm install axios
+-----------------------------------------------------------------------
+Deploy Client APP:
+ - npm run buid 
+ - will create standard HTML+JS out of react src and components
+ - (HTML+JS+CSS) are zipped (no human read)
+ - can be integrated in any APP
+ - Can be deploy to server:
+   http://mydomain.com/index.html
+ - when called the application(htm + js chuncks) will download to Client
+ - react app will run using standard JS 
  --------------------------------------------------------------------------
- Deploy Client App :
-  - CLIENT APP AND PUT IT ON WEBFORMS
-  - GITHUB PAGES / Nelify /... 
+ Deploy Client App using netlify :
+  - Enable to deploy client app
+  - deploy Angular/REACT/standart HTML+JS+CSS 
+  How to deploy
+ Option 1 menually:
+  1)  Build react 
+  2)  upload the build folder to netlify
+ option 2 using exsisting github repository
+ 
+----------------------------------------------------------------------------
