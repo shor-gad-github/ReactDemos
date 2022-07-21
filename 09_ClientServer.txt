@@ -1,0 +1,36 @@
+CLIENT / SERVER
+1)FullStack Flow:
+Client (Native Android/WINFORM/React/Angular) ----> NODEJS/ASP.NET API
+ASP.NET API
+ - ANY CLIENT
+ - USUALLY RETURN JSON DATA
+ - REACT(JS) will call Server
+ - SPA - Single Page App
+ - BIg Companies
+ - REST API:
+   GET/POST/PUT/DELETE/PETCH
+ - FETCH / AXIOS / XHR
+
+
+
+
+
+
+
+
+
+
+
+//------------------
+2)Monolitic Flow:
+ - ASP.NET MVC / WEBFORMS / WEBPAGES
+ - Server Send all HTML+JS+Css Dynamically and return it to client
+ - PHP/MVC/NODEJS MVC
+ - LESS JS
+ - RETURN HTML With Data
+ - Only Browser - Web Client
+ - Dedicated Web Site
+ CLIENT ------------------------> SERVER  (READ FROM DB,RENDER HTML ACCORDING REQUST,Send it to Client)
+ Client Disply Data (NO JS) <---- HTML DATA    
+ ---------------------- 
+
