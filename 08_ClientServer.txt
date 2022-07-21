@@ -10,17 +10,6 @@ ASP.NET API
  - REST API:
    GET/POST/PUT/DELETE/PETCH
  - FETCH / AXIOS / XHR
-
-
-
-
-
-
-
-
-
-
-
 //------------------
 2)Monolitic Flow:
  - ASP.NET MVC / WEBFORMS / WEBPAGES
@@ -33,4 +22,9 @@ ASP.NET API
  CLIENT ------------------------> SERVER  (READ FROM DB,RENDER HTML ACCORDING REQUST,Send it to Client)
  Client Disply Data (NO JS) <---- HTML DATA    
  ---------------------- 
-
+ - EXAMPLE AXIOS 
+ - npm run buid : standart HTML from react App (HTML+JS+CSS) in ZIPPED mode
+ --------------------------------------------------------------------------
+ Deploy Client App :
+  - CLIENT APP AND PUT IT ON WEBFORMS
+  - GITHUB PAGES / Nelify /... 
