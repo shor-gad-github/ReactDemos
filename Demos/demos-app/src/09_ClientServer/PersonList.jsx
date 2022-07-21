@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import api from './api'
 
 export default class PersonList extends React.Component {
     state = {
@@ -9,7 +10,7 @@ export default class PersonList extends React.Component {
     //Triggered Only Once when Component is Initilized and Rendered to UI
     //Initilized Component EVENT
     componentDidMount() {
-        axios.get(`https://jsonplaceholder.typicode.com/users`)
+        api.get(`users`)
             .then(res => {
                 const persons = res.data;
                 this.setState({ persons });
