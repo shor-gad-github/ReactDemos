@@ -61,5 +61,7 @@ Deploy Client APP:
   1)  Build react 
   2)  upload the build folder to netlify
  option 2 using exsisting github repository
- 
+ 1)..
+ 2)..
+ 3)..
 ----------------------------------------------------------------------------
