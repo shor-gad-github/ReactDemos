@@ -7,9 +7,8 @@ import ReactDOM from 'react-dom/client';
 // import App1 from './05_Routing/App1';
 // import App2 from './05_Routing/App2';
 // import ChildrenPropsApp from './06_ChildrenProps/App';
-import AppClientServer from './09_ClientServer/App';
-
-import AppGlobalContext from './07_GlobalContext/App';
+// import AppGlobalContext from './07_GlobalContext/App';
+import AppClientServer from './08_ClientServer/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

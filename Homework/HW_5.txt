@@ -1,0 +1,12 @@
+https://reqres.in/api/users
+
+is mock REST API that expose users data in pages 
+https://reqres.in/api/users?page=1
+
+
+Create new React CRUD App with the following folders Structure
+-----> users/
+-------> UsersListing.js
+-------> UserItem.js
+-------> AddEditUser.js
+that will do API calls to server using axios 

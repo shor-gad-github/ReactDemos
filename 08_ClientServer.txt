@@ -44,7 +44,7 @@ Flow steps:
  npm install axios
 -----------------------------------------------------------------------
 Deploy Client APP:
- - npm run buid 
+ - npm run buid  
  - will create standard HTML+JS out of react src and components
  - (HTML+JS+CSS) are zipped (no human read)
  - can be integrated in any APP
@@ -61,7 +61,5 @@ Deploy Client APP:
   1)  Build react 
   2)  upload the build folder to netlify
  option 2 using exsisting github repository
- 1)..
- 2)..
- 3)..
+
 ----------------------------------------------------------------------------
