@@ -21,14 +21,17 @@ export default class PersonList extends React.Component {
         return (
             <>
                 <h1>Users:</h1>
+
                 <ul className='list-group'>
                     {
                         this.state.persons
                             .map(person =>
                                 <li className='list-group-item d-flex justify-content-between align-items-center' key={person.id}>{person.name}</li>
+
                             )
                     }
                 </ul>
+
             </>
         )
     }

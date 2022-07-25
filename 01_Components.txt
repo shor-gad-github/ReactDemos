@@ -31,7 +31,7 @@ What is React Component?
        //HTML 
     );
  - Compont can be inside Other Component (Hirarchy)
- - Best practice to put each component in seperate file as .js or.jsx extentions
+ - Best practice to put each component in seperate file using .js or.jsx extentions
  - Use {} to move from rect HTML to JS Code  - JS And HTML combined
  - css class should be converted to classname  
  <h1 class="pageheader">  --->  <h1 className="pageheader"> 

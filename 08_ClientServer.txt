@@ -31,7 +31,7 @@ Flow steps:
 1) client Request url from server 
 2) Server will get client parameters and render HTML on server CPU dynamically
 3) html with data send to client
-4) client display full html as is from the server  
+4) client display full html as is from the server 
 
 ---------------------- 
  AXIOS:

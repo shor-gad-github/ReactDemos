@@ -33,12 +33,16 @@ root.render(
         {/* 06 Props.Children-------------------------*/}
         {/* <ChildrenPropsApp></ChildrenPropsApp> */}
 
-        {/* 07 Global State-------------------------*/}
+        {/* 07 Global Context State-------------------------*/}
         {/* <AppGlobalContext></AppGlobalContext> */}
 
 
-        {/* 09 Global State-------------------------*/}
+        {/* 08 Global State-------------------------*/}
         <AppClientServer />
+
+
+
+
     </>);
 
 //ROUTING
