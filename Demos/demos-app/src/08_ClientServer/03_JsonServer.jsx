@@ -2,7 +2,7 @@ import { LogoIcon } from "./JsonServerCrud/assets/icons"
 import CrudUser from "./JsonServerCrud/components/CrudUser"
 import "./JsonServerCrud/styles/App.css"
 
-function App() {
+function CrudWithJsonServer() {
     return (
         <>
             <header>
@@ -20,4 +20,4 @@ function App() {
     )
 }
 
-export default App
+export default CrudWithJsonServer
