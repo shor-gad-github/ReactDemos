@@ -1,6 +1,6 @@
-CLIENT / SERVER
------------------
-1) FullStack Flow:
+CLIENT / SERVER methedologies:
+-------------------------------
+1) [FullStack Flow:]
    client and server are disconected
    Client (Native Android/WINFORM/React/Angular) ----> NODEJS/ASP.NET API
  - Client can be in any Platform technology
@@ -17,7 +17,7 @@ Flow Steps:
 2) Server return Json Data
 3) Client Get the JSON data and render ui dynamically on client CPU (Browser)
 --------------------------
-2) Monolitic Flow:
+2) [Monolitic Flow:]
    server render html dynamically 
  - ASP.NET MVC / WEBFORMS / WEBPAGES
  - Server Send all HTML+JS+Css Dynamically and return it to client
@@ -33,29 +33,38 @@ Flow steps:
 5) Ecommece ... developed as Monolitic
    PHP/WORDPRESS/ASP.NET
 ------------------------------
-Static Flow:
-1) HTML + JS +CSS + images as files in server 
-2) get files from server as is
+3) [Static Files Flow:]
+- HTML + JS +CSS + images as files in server 
+- get files from server as is
 Landing Page 
---------------------------------
+--------------------------------------------------------------------------------------------------------
+
+Client Rest Call:
+----------------
  AXIOS:
  - Help to do rest comunication with server async
  - support HTTP Methods: GET/POST/DELETE/PUT/PETCH 
  - easy to use
  - very popular
- -----------
+ 
  Install npm package:
- npm install axios
+    npm install axios
 -----------------------------------------------------------------------
-LIVE MOCK JSON SERVER 
-1)REQRES
-2)JSONPLACEHOLDER
 
+
+LIVE MOCK JSON SERVER 
+---------------------
+1)REQRES 
+2)JSONPLACEHOLDER
 3)localHost JSONServer
- localhost 5000 (SERVER)
-  - JSON File
- localHost 3000 (Client)
-  -react
+  - MOCK JSON NODEJS Server according json files
+  - support all REST API 
+  - update JSON FILE according Request
+  - usuall call file db.json
+  - run on different port then client
+    localhost 5000 (SERVER) 
+    localHost 3000 (Client)
+
 How to use:(localhost nodejs server)
 1) Create server folder
 2) npm init 
@@ -66,10 +75,8 @@ How to use:(localhost nodejs server)
     "start": "json-server -p 5000 -w db.json"
   },
 6)npm start
------------------------------------
 
-
-------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 Deploy Client APP:
  - npm run buid  
  - will create standard HTML+JS out of react src and components
