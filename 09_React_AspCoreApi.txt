@@ -56,14 +56,14 @@ Create ASP.NET APP that support this  JSON Enteties for our CRUD REACT Client AP
 }
 
 ------------------------------------------------------------------------
--it should support this URLs:
+-it should support this Get URLs:
  http://localhost:5000/users
  http://localhost:5000/users?_expand=companies
  http://localhost:5000/companie
 
 -it should support all crud operation for users Enteties
 
-- it should work with our client instead jsonserver 
+-it should work with our client replacing the jsonserver 
 
 - http://localhost:5000/users?_expand=companies 
  should return this content format:
