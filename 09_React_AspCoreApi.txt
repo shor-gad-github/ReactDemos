@@ -59,7 +59,7 @@ Create ASP.NET APP that support this  JSON Enteties for our CRUD REACT Client AP
 -it should support this Get URLs:
  http://localhost:5000/users
  http://localhost:5000/users?_expand=companies
- http://localhost:5000/companie
+ http://localhost:5000/companies
 
 -it should support all crud operation for users Enteties
 
