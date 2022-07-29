@@ -7,11 +7,11 @@ CLIENT / SERVER methedologies:
  - Usually server return JSON Data only
  - Client can get/send Json data
  - Client is responsible for creating its UI methodology based on the json data
- - SPA: Client is Single Page App
+ - SPA: Client is Single Page App 
  - Client Server will comunicate using REST API:
    (GET/POST/PUT/DELETE/PETCH)
  - Browser client can use async java call: 
-    FETCH / AXIOS / XHR
+    FETCH / AXIOS / XH  R
 Flow Steps:
 1) Client Request json data from server 
 2) Server return Json Data
@@ -96,6 +96,7 @@ Deploy Client APP:
  Help:
  https://www.makeuseof.com/how-to-deploy-react-app-with-github-pages/
 ----------------------------------------------------------------------------
+
 Deploy  react client App to GitHubPages:
 first Make the project sync with git hub remotely
 1) npm install gh-pages
