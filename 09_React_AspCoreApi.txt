@@ -107,7 +107,7 @@ Steps:
 
 1) Create Enteties
 2) Create Crud operation (in memory) in Repository for each Model
-3) Create Al repositories as singelton dependency injection 
+3) Create  repositories as singelton dependency injection 
 4) create new Full controllers for each entity with repository injected in constractor
     make each controller full CRUD (POST/PUT/GET/DELETE)
 5) support QueryString (?_expand=companies)  in get
