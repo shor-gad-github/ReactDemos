@@ -1,0 +1,105 @@
+Class Task:
+Create ASP.NET APP that support this  JSON Enteties for our CRUD Client APP:
+
+{
+  "users": [
+    {
+      "name": "Sobhan name",
+      "username": "Sobhan",
+      "email": "sobhan@yahoo.com",
+      "phone": "9893548125",
+      "companiesId": "1",
+      "id": 1
+    },
+    {
+      "name": "Nastaran name",
+      "username": "Nastaran",
+      "email": "nasi@gmail.com",
+      "phone": "9893878452",
+      "companiesId": "2",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Sobhan name",
+      "username": "Sobhan",
+      "email": "sobhan@yahoo.com",
+      "phone": "989354812514",
+      "companiesId": "3"
+    },
+    {
+      "name": "Luis Javier Tovar",
+      "username": "",
+      "email": "luisjavier_tovar@outlook.com",
+      "phone": "1234567899",
+      "companiesId": "1",
+      "id": 6
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net"
+    },
+    {
+      "id": 2,
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency"
+    },
+    {
+      "id": 3,
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution"
+    }
+  ]
+}
+
+------------------------------------------------------------------------
+-it should support this URLs:
+ http://localhost:5000/users
+ http://localhost:5000/users?_expand=companies
+ http://localhost:5000/companie
+
+-it should support all crud operation for users Enteties
+
+- it should work with our client instead jsonserver 
+
+- http://localhost:5000/users?_expand=companies 
+ should return this content format:
+
+[
+  {
+    "name": "Sobhan XXX",
+    "username": "Sobhan",
+    "email": "sobhan@yahoo.com",
+    "phone": "9893548125",
+    "companiesId": "1",
+    "id": 1,
+    "companies": {
+      "id": 1,
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net"
+    }
+  },
+  {
+    "name": "Nastaran name",
+    "username": "Nastaran",
+    "email": "nasi@gmail.com",
+    "phone": "9893878452",
+    "companiesId": "2",
+    "id": 4,
+    "companies": {
+      "id": 2,
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency"
+    }
+  }
+]
+
+
+
+------------------------------------------------------------------------
+Solution:
+https://github.com/shor-gad-github/UsersDemoApi/
+
