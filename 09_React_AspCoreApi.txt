@@ -70,7 +70,7 @@ Create ASP.NET APP that support this  JSON Enteties for our CRUD REACT Client AP
 
 [
   {
-    "name": "Sobhan XXX",
+    "name": "Sobhan",
     "username": "Sobhan",
     "email": "sobhan@yahoo.com",
     "phone": "9893548125",
